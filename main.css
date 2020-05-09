@@ -1,3 +1,10 @@
 body {
-  background-color: sienna;
+  background-color: sienna; /* fix color in later commit */
+}
+
+.coupon {
+  border: 3px dotted pink;  /* fix color in later commit */
+  border-radius: 20px;
+  height: 300px;
+  padding: 15px;
 }
