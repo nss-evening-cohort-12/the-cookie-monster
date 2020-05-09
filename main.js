@@ -36,11 +36,3 @@ const cookies = [
     category: 'Sweet', // sweet, chocolate, fruit, etc.
     },
 ];
-
-const cookieObj = () => {
-    cookies.forEach(cookie => {
-        console.log(cookie);
-    });
-};
-
-cookieObj();
