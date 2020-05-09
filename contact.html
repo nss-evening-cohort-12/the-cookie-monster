@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Cookie Monster</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <h1 class="text-center heading">Contact Us</h1>
+
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <label for="nameInput">Name: </label>
+            <input type="text" class="form-control" id="nameInput" placeholder="Lorke Lorncaster">
+          </div>
+          <div class="col">
+            <label for="emailInput">Email: </label>
+            <input type="email" class="form-control" id="emailInput" placeholder="lorke@lorncaster.com">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="messageInput">Message: </label>
+        <textarea type="text" class="form-control" id="messageInput" placeholder="Please leave us a message" cols="30" rows="10"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-outline-dark btn-lg form-submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="container contact-info">
+    <div class="row mb-3">
+      <div class="col-6 offset-3 text-center">
+        <a href="mailto: webmaster@thecookiemonster.com">Email Us</a>
+        <p>615-555-5555</p>
+        <div class="address">
+          1234 Sw Main Street<br>
+          Nashville, TN 37869
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 offset-3 list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action">Twitter</a>
+        <a href="#" class="list-group-item list-group-item-action">Instagram</a>
+        <a href="#" class="list-group-item list-group-item-action disabled">Facebook</a>
+        <a href="#" class="list-group-item list-group-item-action">TikTok</a>
+        <a href="#" class="list-group-item list-group-item-action">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer" class="border mt-5">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#missionStatement">Mission Statement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#covidStatement">Covid Information</a>
+      </li>
+      <li class="nav-item">
+        <!-- About page needed  -->
+        <a class="nav-link text-white" href="#">About</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li> -->
+    </ul>
+    <div class="text-center text-white">
+      <a class="nav-link text-white" href="./contact.html">Contact</a>
+    </div>
+    <div class="text-center text-white">
+      <p>Legal info/Copyright</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

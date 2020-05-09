@@ -29,3 +29,7 @@ p {
   color: #BAF7FF;
   font-family: 'IBM Plex Sans', sans-serif;
 }
+
+.form-submit {
+  width: 100%;
+}
