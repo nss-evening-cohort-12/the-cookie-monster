@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;700&family=Shadows+Into+Light&display=swap');
+
+/* COLORS:
+ * $darkBlue: #70ABB3;
+ * $lightBlue: #D4FAFF;
+ * $baseBlue: #BAF7FF;
+ * $darkBrown: #B3835F;
+ * $peachSkinTone: #FFD8BA;
+ */
+
 body {
-  background-color: sienna; /* fix color in later commit */
+  background-color: #B3835F;
 }
 
 .coupon {
-  border: 3px dotted pink;  /* fix color in later commit */
+  background-color: #D4FAFF;
+  border: 3px dotted #FFD8BA;
   border-radius: 20px;
   height: 300px;
   padding: 15px;
+}
+
+.heading {
+  color: #70ABB3;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+  color: #BAF7FF;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
