@@ -9,12 +9,12 @@
  */
 
 body {
-  background-color: #B3835F; /* fix color in later commit */
+  background-color: #B3835F;
 }
 
 .coupon {
   background-color: #D4FAFF;
-  border: 3px dotted #FFD8BA;  /* fix color in later commit */
+  border: 3px dotted #FFD8BA;
   border-radius: 20px;
   height: 300px;
   padding: 15px;
